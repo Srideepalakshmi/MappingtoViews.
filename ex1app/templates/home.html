@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>Home</title>
+    <!-- Load static files -->
+    {% load static %}
+</head>
+<body>
+    <h1>This is the Home Page</h1>
+    <p>Web Application Development using Django Framework</p>
+    <!-- Add the image here -->
+    <img src="{% static 'images/p1.png' %}" alt="p1.png">
+    <!-- Display the dynamic message -->
+    <h1>{{ message }}</h1>
+</body>
+</html>
